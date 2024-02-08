@@ -5,11 +5,11 @@ from API import transfer_style
 if __name__=="__main__":
 
     # Path of the pre-trained TF model 
-    model_path = r"C:\Users\dipesh\Desktop\Neural-Style-Transfer\model"
+    model_path = r"C:\Users\sakkiah\Desktop\Myapp\working\model\Neural-Style-Transfer\model"
 
     # NOTE : Works only for '.jpg' and '.png' extensions,other formats may give error
-    content_image_path = r"C:\Users\dipesh\Desktop\Albert-Einstein.jpg"
-    style_image_path = r"C:\Users\dipesh\Desktop\starry_night.jpg"
+    content_image_path = r"C:\Users\sakkiah\Desktop\Myapp\working\model\art1.png"
+    style_image_path = r"C:\Users\sakkiah\Desktop\Myapp\working\model\art2.png"
 
     img = transfer_style(content_image_path,style_image_path,model_path)
     # Saving the generated image
